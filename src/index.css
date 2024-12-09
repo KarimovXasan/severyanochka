@@ -1,0 +1,40 @@
+/* Font family Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Html and container */
+html{
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  @apply bg-backround
+}
+
+.container{
+  @apply max-w-1240 mx-auto px-5
+}
+
+/* h1-h6 pikselar o'lchovi va reponsivlar xajmi */
+@layer base{
+  h1{
+    @apply text-32 md:text-36 font-bold text-surface-text
+  }
+  h2{
+    @apply text-20 md:text-24 font-bold text-surface-text
+  }
+  h3{
+    @apply text-18 md:text-14 font-bold text-surface-text
+  }
+  p{
+    @apply text-14 md:text-16 font-bold text-surface-text
+  }
+}
+
+@layer components{
+  .green-btn{
+   @apply bg-secondary text-white py-4 px-6    
+  }
+}
