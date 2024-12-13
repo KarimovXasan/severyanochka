@@ -62,7 +62,10 @@ export default {
         '14':'14px',
         '20':'20px',
         '32':'32px',
-      }
+      },
+      backgroundImage: {
+        'hero': "url('src/assets/images/BackroundImg.jpg')",
+      },
     },
   },
   plugins: [],
