@@ -32,7 +32,7 @@ html{
     @apply text-14 md:text-16 font-bold text-surface-text
   }
 }
-
+/* bu yerda faqat css-dagi button va boshqa narsalarni style ketagigon */
 @layer components{
   .green-btn{
    @apply bg-secondary text-white py-4 px-6    
@@ -41,15 +41,18 @@ html{
     @apply bg-[#E5FFDE] text-secondary py-4 px-6 rounded-lg
   }
   .border-green-btn{
-    @apply border-2 w-full py-2 border-secondary text-secondary rounded-md 
+    @apply border-2 w-full py-0.5 border-secondary text-secondary rounded-md hover:orange-btn hover:border-none
   }
   .orange-btn{
-    @apply bg-pimary text-white w-full py-4
+    @apply bg-pimary text-white w-full py-1
   }
   .input.stl{
     @apply flex-grow outline-none text-gray-600 placeholder-gray-400 
   }
   .input-father{
     @apply flex items-center border border-green-500 rounded px-2 py-1 bg-white
+  }
+  .style-li{
+    @apply shadow-one-box hover:shadow-nine-box bg-white py-2 px-3.5 space-y-2 rounded-md
   }
 }

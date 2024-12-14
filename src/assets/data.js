@@ -25,7 +25,13 @@ import heroPhoto from './images/HeroImg.png';
 import pancake from './images/Blinchik.png';
 import milk from './images/moloko.png';
 import smoked from './images/Kapchinni.png';
-import sausage from './images/'
+
+// newItems data.js import image
+import SausageOnTheShelf from './images/SausageOnTheShelf.png';
+import Tuscany from './images/Tuscany.png';
+import Sausage from './images/Sosiska.png';
+import milk2 from './images/moloko.png';
+
 
 // Stock data.js
 const stockDt = [
@@ -38,22 +44,51 @@ const stockDt = [
     {
         id: 2,
         img: milk,
-        price:'44,55',
+        price: '44,55',
         description: 'Молоко ПРОСТОКВАШИНО паст. питьевое цельное отборное...',
     },
     {
         id: 3,
         img: smoked,
-        price:'44,55',
+        price: '44,55',
         description: 'Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...',
     },
     {
         id: 4,
         img: milk,
-        price:'44,55',
+        price: '44,55',
         description: 'Сосиски вареные МЯСНАЯ ИСТОРИЯ Молочные и С сыро...',
     },
 ]
+
+// NewItems data.js
+const newItems = [
+    {
+        id: 5,
+        img: SausageOnTheShelf,
+        price: '44,55',
+        description: 'Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»',
+    },
+    {
+        id: 6,
+        img: Tuscany,
+        price: '44,55',
+        description: 'Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...',
+    },
+    {
+        id: 7,
+        img: Sausage,
+        price: '44,55',
+        description: 'Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»',
+    },
+    {
+        id: 8,
+        img: milk2,
+        price: '44,55',
+        description: 'Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»',
+    },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+]
+
 
 // export images and data 
 export {
@@ -72,5 +107,7 @@ export {
     search,
     people,
     heroPhoto,
-    stockDt
+    stockDt,
+    newItems,
+    
 };
