@@ -30,6 +30,7 @@ export default {
         'error': '#D80000',
       },
       boxShadow: {
+        'navbar':'2px 4px 8px 0px rgba(0, 0, 0, 0.1)',
         // Birinchi ustundagi 5-ta cardlarni shadowlari
         'one-box': '1px 2px 4px 0px rgba(0, 0, 0, 0.1)',
         'two-box': '2px 4px 8px 0px rgba(0, 0, 0, 0.1)',

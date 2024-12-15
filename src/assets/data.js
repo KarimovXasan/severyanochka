@@ -32,6 +32,8 @@ import Tuscany from './images/Tuscany.png';
 import Sausage from './images/Sosiska.png';
 import milk2 from './images/moloko.png';
 
+// Bought before data.js import image
+import HamPitresky from './images/HamPitresky.png';
 
 // Stock data.js
 const stockDt = [
@@ -89,6 +91,33 @@ const newItems = [
     },                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 ]
 
+// Bought before data.js
+const BoughtBefore = [  
+    {
+        id: 8,
+        img: HamPitresky,
+        price: '44,55',
+        description: 'Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»',
+    },
+    {
+        id: 9,
+        img: Sausage,
+        price: '44,55',
+        description: 'Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»',
+    },
+    {
+        id: 10,
+        img: SausageOnTheShelf,
+        price: '44,55',
+        description: 'Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»',
+    },
+    {
+        id: 8,
+        img: milk2,
+        price: '44,55',
+        description: 'Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»',
+    }, 
+]
 
 // export images and data 
 export {
@@ -109,5 +138,6 @@ export {
     heroPhoto,
     stockDt,
     newItems,
+    BoughtBefore,
     
 };
