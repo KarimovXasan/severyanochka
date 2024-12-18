@@ -92,7 +92,7 @@ const newItems = [
 ]
 
 // Bought before data.js
-const BoughtBefore = [  
+const boughtBefore = [  
     {
         id: 8,
         img: HamPitresky,
@@ -138,6 +138,5 @@ export {
     heroPhoto,
     stockDt,
     newItems,
-    BoughtBefore,
-    
+    boughtBefore,
 };

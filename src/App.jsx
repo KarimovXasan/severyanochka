@@ -8,6 +8,8 @@ import Bought from './components/Bought';
 
 // import bootstrap icons
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import OurShops from './components/OurShops';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
         <Stock />
         <New />
         <Bought />
+        <OurShops />
       </main>
+      <Footer />
     </>
   )
 }

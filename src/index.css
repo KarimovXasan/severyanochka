@@ -35,10 +35,10 @@ html{
 /* bu yerda faqat css-dagi button va boshqa narsalarni style ketagigon */
 @layer components{
   .green-btn{
-   @apply bg-secondary text-white py-4 px-6    
+   @apply bg-secondary text-white py-1.5 px-6    
   }
   .light-green-btn{
-    @apply bg-[#E5FFDE] text-secondary py-4 px-6 rounded-lg
+    @apply bg-[#E5FFDE] text-secondary py-1.5 px-6 rounded-lg
   }
   .border-green-btn{
     @apply border-2 w-full py-0.5 border-secondary text-secondary rounded-md hover:orange-btn hover:border-none
